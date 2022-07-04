@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: cyan;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  flex: 1;
+}
+
+.formside {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  flex: 3;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
