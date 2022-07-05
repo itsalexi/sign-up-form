@@ -4,6 +4,13 @@ body {
   font-family: "Patrick Hand", cursive;
 }
 
+#firstP {
+  margin-bottom: 3em;
+}
+#secondP {
+  margin-bottom: 2em;
+}
+
 .container {
   display: flex;
   height: 100%;
@@ -14,12 +21,13 @@ body {
   background-color: cyan;
   height: 100%;
   width: 100%;
-  flex: 1;
+  flex: 2.5;
 }
 
 .formside {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 100%;
   width: 100%;
   flex: 3;
@@ -64,8 +72,7 @@ body {
 
 .forminfo {
   width: 80%;
-  font-size: 1em;
-  margin-top: 5em;
+  font-size: 1.5em;
   margin-left: 30px;
 }
 
