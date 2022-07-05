@@ -1,6 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
+  font-family: "Patrick Hand", cursive;
 }
 
 .container {
@@ -13,29 +14,75 @@ body {
   background-color: cyan;
   height: 100%;
   width: 100%;
-  padding: 10px;
   flex: 1;
 }
 
 .formside {
   display: flex;
   flex-direction: column;
-  background-color: yellow;
   height: 100%;
   width: 100%;
-  padding: 10px;
   flex: 3;
 }
 
 .input {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 30%;
+}
+
+.input label {
+  font-size: 0.6em;
+  letter-spacing: 2px;
+}
+.form legend {
+  font-size: 1.5em;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.formside a {
+  text-decoration: none;
+}
+
+.createDiv {
+  margin-left: 30px;
+}
+
+.createDiv button {
+  margin-top: 30px;
+  background: none;
+  padding: 10px 40px;
+  border-radius: 10px;
+}
+
+.forminfo {
+  width: 80%;
+  font-size: 1em;
+  margin-top: 5em;
+  margin-left: 30px;
 }
 
 .form {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  background: white;
+  flex-direction: column;
   gap: 20px;
+  width: 100%;
+  height: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding-left: 30px;
+  padding-bottom: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.sidebar img {
+  width: 100%;
+  height: 100%;
 }

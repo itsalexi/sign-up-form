@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,40 +7,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
         <div class="sidebar">
-            <p>test</p>
+            <img src="https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                alt="">
         </div>
         <div class="formside">
             <div class="forminfo">
                 <p>This is not a real online service, or is it? You know you need something like this in your life, or
                     you don't. But it will help you realize your deepest dreams, or it won't. Don't sign up if you don't
                     want, but if you do just do it!</p>
+                <p>You know you want to..</p>
             </div>
             <div class="form">
                 <form action="#dosomething">
                     <legend>Let's do this!</legend>
-                    <div class="input">
-                        <label for="firstname">First Name</label>
-                        <input type="text" name="firstname" id="firstname">
+                    <div class="row">
+                        <div class="input">
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" name="firstname" id="firstname" required>
+                        </div>
+                        <div class="input">
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" name="lastname" id="lastname" required>
+                        </div>
                     </div>
-                    <div class="input">
-                        <label for="lastname">Last Name</label>
-                        <input type="text" name="lastname" id="lastname">
+                    <div class="row">
+                        <div class="input">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="input">
+                            <label for="phonenumber">PHONE NUMBER</label>
+                            <input type="tel" name="phonenumber" id="phonenumber" required>
+                        </div>
                     </div>
-                    <div class="input">
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                    </div>
-                    <div class="input">
-                        <label for="phonenumber">Phone Number</label>
-                        <input type="number" name="phonenumber" id="phonenumber">
+                    <div class="row">
+                        <div class="input">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <div class="input">
+                            <label for="confirmpassword">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirmpassword" id="confirmpassword">
+                        </div>
                     </div>
                 </form>
             </div>
+            <div class="createDiv">
+                <button id="create">Create Account</button>
+                <p id="loginText">Already have an account? <span id="login"><a href="#">Log In</a></span></p>
+            </div>
+
         </div>
     </div>
 </body>
