@@ -5,7 +5,7 @@ body {
 }
 
 #firstP {
-  margin-bottom: 3em;
+  margin-bottom: 1em;
 }
 #secondP {
   margin-bottom: 2em;
@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: black;
   height: 100%;
   width: 100%;
   flex: 3;
@@ -45,8 +46,8 @@ body {
 }
 .form legend {
   font-size: 1.5em;
-  padding: 0;
-  margin-bottom: 10px;
+  padding-top: 15px;
+  margin-bottom: 20px;
 }
 
 .formside a {
@@ -54,37 +55,42 @@ body {
 }
 
 .createDiv {
-  margin-left: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  background-color: black;
 }
 
 .createDiv button {
   margin-top: 30px;
   background: none;
   padding: 10px 40px;
-  border: 2px solid black;
+  border: 2px solid cyan;
+  color: white;
   border-radius: 10px;
 }
 
 .createDiv button:hover {
-  background-color: black;
-  color: white;
+  background-color: cyan;
+  color: black;
 }
 
 .forminfo {
   width: 80%;
   font-size: 1.5em;
   margin-left: 30px;
+  color: white;
 }
 
 .mainForm {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    rgba(255, 255, 255, 0.3) 0px 3px 7px -3px;
   padding-left: 30px;
   padding-bottom: 12px;
 }
 .form {
   display: flex;
-  background: white;
+  background: rgb(13, 11, 11);
+  color: white;
   flex-direction: column;
   gap: 20px;
   width: 100%;
