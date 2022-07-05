@@ -25,43 +25,47 @@
             </div>
             <div class="form">
                 <form action="#dosomething">
-                    <legend>Let's do this!</legend>
-                    <div class="row">
-                        <div class="input">
-                            <label for="firstname">FIRST NAME</label>
-                            <input type="text" name="firstname" id="firstname" required>
+                    <div class="mainForm">
+
+                        <legend>Let's do this!</legend>
+                        <div class="row">
+                            <div class="input">
+                                <label for="firstname">FIRST NAME</label>
+                                <input type="text" name="firstname" id="firstname" required>
+                            </div>
+                            <div class="input">
+                                <label for="lastname">LAST NAME</label>
+                                <input type="text" name="lastname" id="lastname" required>
+                            </div>
                         </div>
-                        <div class="input">
-                            <label for="lastname">LAST NAME</label>
-                            <input type="text" name="lastname" id="lastname" required>
+                        <div class="row">
+                            <div class="input">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="input">
+                                <label for="phonenumber">PHONE NUMBER</label>
+                                <input type="tel" name="phonenumber" id="phonenumber" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+                            <div class="input">
+                                <label for="confirmpassword">CONFIRM PASSWORD</label>
+                                <input type="password" name="confirmpassword" id="confirmpassword">
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="input">
-                            <label for="email">EMAIL</label>
-                            <input type="email" name="email" id="email">
-                        </div>
-                        <div class="input">
-                            <label for="phonenumber">PHONE NUMBER</label>
-                            <input type="tel" name="phonenumber" id="phonenumber" required>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input">
-                            <label for="password">PASSWORD</label>
-                            <input type="password" name="password" id="password" required>
-                        </div>
-                        <div class="input">
-                            <label for="confirmpassword">CONFIRM PASSWORD</label>
-                            <input type="password" name="confirmpassword" id="confirmpassword">
-                        </div>
+                    <div class="createDiv">
+                        <button type="submit" id="create">Create Account</button>
+                        <p id="loginText">Already have an account? <span id="login"><a href="#">Log In</a></span></p>
                     </div>
                 </form>
             </div>
-            <div class="createDiv">
-                <button id="create">Create Account</button>
-                <p id="loginText">Already have an account? <span id="login"><a href="#">Log In</a></span></p>
-            </div>
+
 
         </div>
     </div>
