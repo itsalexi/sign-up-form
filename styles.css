@@ -1,7 +1,10 @@
+* {
+  font-family: "Patrick Hand", cursive;
+}
+
 body {
   margin: 0;
   height: 100vh;
-  font-family: "Patrick Hand", cursive;
 }
 
 #firstP {
@@ -11,6 +14,9 @@ body {
   margin-bottom: 2em;
 }
 
+#loginText {
+  font-size: 1.3em;
+}
 .container {
   display: flex;
   height: 100%;
@@ -18,6 +24,10 @@ body {
 }
 
 .sidebar {
+  background-image: url(https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: cyan;
   height: 100%;
   width: 100%;
@@ -31,7 +41,7 @@ body {
   background-color: black;
   height: 100%;
   width: 100%;
-  flex: 3;
+  flex: 3.7;
 }
 
 .input {
@@ -41,21 +51,36 @@ body {
 }
 
 .input label {
-  font-size: 0.6em;
+  font-size: 0.9em;
   letter-spacing: 2px;
 }
+
+.input input {
+  background: rgb(13, 11, 11);
+  border: 2px solid rgb(188, 188, 188);
+  border-radius: 3px;
+  color: rgb(188, 188, 188);
+}
+
+.input input:focus {
+  border: 3px solid cyan;
+  outline: none;
+}
+
 .form legend {
   font-size: 1.5em;
   padding-top: 15px;
   margin-bottom: 20px;
+  color: white;
 }
 
 .formside a {
   text-decoration: none;
+  color: cyan;
 }
 
 .createDiv {
-  padding-left: 30px;
+  padding-left: 50px;
   padding-bottom: 20px;
   background-color: black;
 }
@@ -63,10 +88,12 @@ body {
 .createDiv button {
   margin-top: 30px;
   background: none;
-  padding: 10px 40px;
+  padding: 15px 60px;
   border: 2px solid cyan;
   color: white;
   border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .createDiv button:hover {
@@ -77,20 +104,20 @@ body {
 .forminfo {
   width: 80%;
   font-size: 1.5em;
-  margin-left: 30px;
-  color: white;
+  margin-left: 50px;
+  color: rgb(188, 188, 188);
 }
 
 .mainForm {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(255, 255, 255, 0.3) 0px 3px 7px -3px;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-bottom: 12px;
 }
 .form {
   display: flex;
   background: rgb(13, 11, 11);
-  color: white;
+  color: rgb(188, 188, 188);
   flex-direction: column;
   gap: 20px;
   width: 100%;
@@ -103,7 +130,26 @@ body {
   margin-bottom: 10px;
 }
 
-.sidebar img {
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.25);
+    gap: 10px;
+    margin-top: 15em;
+}
+#background {
   width: 100%;
   height: 100%;
+}
+
+#logo {
+  height: 10%;
+  width: 10%;
+}
+
+#logoText {
+    font-size: 3em;
+    color: white;
+    letter-spacing: 5px;
 }
