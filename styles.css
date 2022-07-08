@@ -131,12 +131,12 @@ body {
 }
 
 .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:rgba(0, 0, 0, 0.25);
-    gap: 10px;
-    margin-top: 15em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  gap: 10px;
+  margin-top: 15em;
 }
 #background {
   width: 100%;
@@ -149,7 +149,7 @@ body {
 }
 
 #logoText {
-    font-size: 3em;
-    color: white;
-    letter-spacing: 5px;
+  font-size: 3em;
+  color: white;
+  letter-spacing: 5px;
 }
